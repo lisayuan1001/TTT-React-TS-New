@@ -18,6 +18,7 @@ Whoever gets three in a row/column/diagonal wins.
 ## Roadmap of future improvements
 
 Currently you can still continue the game even if someone wins. Going forward we could add a function to stop the game and provide a button to refresh the game.
+Potential ways to implement this feature: if someone wins, disable all the square buttons. Then display (return) a new button to refresh the page.
 
 ## License information
 
