@@ -66,6 +66,9 @@ const Board = () => {
 
   return (
     <>
+      <div id="info">
+        <h1 className="text-center my-5">Welcome to my Tic-Tac-Toe game!</h1>
+      </div>
       <div className="game-board">
         <div className="grid-row">
           {renderSquare("0")}
@@ -83,8 +86,8 @@ const Board = () => {
           {renderSquare("8")}
         </div>
       </div>
-      <div id="info">
-        <h1>{status}</h1>
+      <div id="status">
+        <h1 className="text-center my-5">{status}</h1>
       </div>
     </>
   );

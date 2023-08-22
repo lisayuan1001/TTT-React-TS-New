@@ -1,28 +1,44 @@
-# React + TypeScript + Vite
+# Tic-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Title of project
 
-Currently, two official plugins are available:
+Tic-Tac-Toe React Exercise
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description of project
 
-## Expanding the ESLint configuration
+This is a course project that is intended to practice using React to create a game. The game involves a parent component (Board) and a child component (Square) and the communication between them via props and callback functions.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## How to run
 
-- Configure the top-level `parserOptions` property like this:
+"Player 1" goes first: click any of the nine squares and mark the square with an "X."
+Then "Player 0" goes: click any of the eight unoccupied squares and mark the square with an "O." If a player tries to click on an already occupied square, they will receive an alert.
+Each player gets their own color (orange for Player 1 and pink for Player 0).
+Whoever gets three in a row/column/diagonal wins.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Roadmap of future improvements
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# TTT-React-TS-New
+Currently you can still continue the game even if someone wins. Going forward we could add a function to stop the game and provide a button to refresh the game.
+
+## License information
+
+MIT License
+
+Copyright (c) 2023 lisayuan1001
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
