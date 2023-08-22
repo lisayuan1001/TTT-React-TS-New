@@ -51,11 +51,7 @@ const Board = () => {
 
   const newState = (n) => {
     let thePlayer = player;
-    let dummyState = [...state];
-    let dummyItem = dummyState[n];
-    dummyItem = player;
-    state[n] = dummyItem;
-    // state[n] = player;
+    state[n] = player;
     setState(state);
 
     let nextplayer = (player + 1) % 2;

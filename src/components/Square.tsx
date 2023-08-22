@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 interface Props {
   childId: string;
-  newState: () => void;
+  newState: (n) => number;
 }
 const Square = ({ childId, newState }: Props) => {
   //   useEffect(() => {
